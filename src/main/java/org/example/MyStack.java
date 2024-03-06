@@ -5,6 +5,7 @@ import java.util.EmptyStackException;
 
 public class MyStack<E> extends ArrayList<E> {
 
+
     public void push(E e) {
         add(e);
     }
