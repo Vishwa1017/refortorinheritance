@@ -22,4 +22,14 @@ ArrayList<E> delegate;
         return e;
     }
 
+    public boolean isEmpty()
+    {
+        return delegate.isEmpty();
+    }
+
+    public int size()
+    {
+        return delegate.size();
+    }
+
 }
