@@ -8,7 +8,7 @@ public class MyStack<E> extends ArrayList<E> {
 ArrayList<E> delegate;
 
     public MyStack() {
-        delegate =this;
+        delegate = new ArrayList<>();
     }
 
     public void push(E e) {
