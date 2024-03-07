@@ -43,4 +43,12 @@ public class AppTest
         myStack.push(6);
         assertEquals(6,myStack.pop());
     }
+
+    public void testAfterDelegationVariable()
+    {
+        MyStack myStack = new MyStack();
+        myStack.push(5);
+        myStack.push(8);
+        assertEquals(8,myStack.pop());
+    }
 }
