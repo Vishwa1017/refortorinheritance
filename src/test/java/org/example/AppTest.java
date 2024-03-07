@@ -51,4 +51,5 @@ public class AppTest
         myStack.push(8);
         assertEquals(8,myStack.pop());
     }
+
 }
